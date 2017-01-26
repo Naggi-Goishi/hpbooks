@@ -7,7 +7,7 @@ hpbooks[H-P-books] is a web application in which people who wish to read a book 
 I have a dream in which
 
 - **Every human knows the joy and pleasure of intelectual activity.**
-- **People who knows about the joy are encouraged to do intelectual activity.**
+- **People who know about the joy are encouraged to do intelectual activity.**
 
 I want to take a step to these two goals by building hpbooks.
 
