@@ -18,3 +18,7 @@ I would welcome any kinds of contributions !!
 If you are not sure about what you can do for hpbooks, you may email me. (naggitapdance@gmail.com)
 
 Or you may just pull request or raise a issue
+
+Start with [setting up hpboks](https://github.com/Naggi-Goishi/hpbooks/wiki/setting-up-hpbooks)
+
+Thank you!
