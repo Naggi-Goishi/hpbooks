@@ -1,0 +1,48 @@
+/* body */
+
+body {
+    background-color: #f9f8f6;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'FuturaBT-Book', sans-serif;
+    margin: 0;
+}
+
+
+/* header */
+
+header {
+    background-color: #fff;
+    width: 100%;
+}
+
+header .header_contents_container {
+    display: flex;
+    height: 29px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px 0;
+    width: 1100px;
+}
+
+header ul {
+    margin: 0;
+}
+
+header img {
+    height: 30px;
+}
+
+nav ul li {
+    font-size: 18px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgba(18, 18, 18, 0.5);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #121212;
+}
