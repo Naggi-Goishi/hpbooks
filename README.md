@@ -13,7 +13,7 @@ I want to take a step to these two goals by building hpbooks.
 
 ## Contribution
 
-I would welcome any kind of contributions !!
+I would welcome any kinds of contributions !!
 
 If you are not sure about what you can do for hpbooks, you may email me. (naggitapdance@gmail.com)
 
