@@ -1,3 +1,7 @@
+html, body {
+    width: 100%;
+}
+
 /* body */
 
 body {
@@ -6,6 +10,7 @@ body {
     font-weight: 300;
     font-family: 'FuturaBT-Book', sans-serif;
     margin: 0;
+    width: 100%;
 }
 
 
@@ -22,7 +27,7 @@ header .header_contents_container {
     justify-content: space-between;
     margin: auto;
     padding: 30px 0;
-    width: 1100px;
+    width: 85%;
 }
 
 header ul {
@@ -46,3 +51,4 @@ nav ul li a {
 nav ul li a:hover {
     color: #121212;
 }
+*/
