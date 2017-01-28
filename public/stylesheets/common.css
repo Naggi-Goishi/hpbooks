@@ -1,21 +1,21 @@
 .button {
-  display: block;
-  background-color: white;
-  text-align: center;
-  padding-top: 5px;
-  border-radius: 5px; 
-  width: 100px;
-  height: 30px;
+    display: block;
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
 }
 
 .button.red {
-  background-color: #DC143C;
-  color: white;
+    background-color: #DC143C;
+    color: white;
 }
 
 .button.red:hover {
-  background-color: #B22222;
-  cursor: default;
+    background-color: #B22222;
+    cursor: default;
 }
 
 @media only screen and (max-width: 421px) {
