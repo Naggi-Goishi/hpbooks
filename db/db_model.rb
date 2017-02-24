@@ -3,17 +3,19 @@ require_relative 'load_config'
 
 class DB_Model
 
-  def initialize
+  def initialize(attributes)
     @client = connect
+    @attributes = attributes
+
     select_database
   end
 
-  def save(table_name, params)
+  def save
     @client.query("
-          INSERT INTO #{table_name}
-          (#{params_keys(params)})
+          INSERT INTO #{@attributes[:table_name]}
+          (#{params_keys(@attributes[:attributes])})
           VALUES
-          (#{params_velues(params)});")
+          (#{params_velues(@attributes[:attributes])});")
   end
 
   private

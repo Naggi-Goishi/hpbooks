@@ -2,14 +2,16 @@ require 'bcrypt'
 require_relative '../db/db_model'
 
 class User < DB_Model
-  def save(params)
-    params = params.keys_to_sym
-    params[:password] = encrypt_password(params[:password])
-    super('users', params)
+
+  def initialize(attributes = {})
+    attributes = attributes.keys_to_sym
+    encrypt_password!(attributes)
+    attributes = {table_name: 'users', attributes: attributes}
+    super attributes
   end
 
   private
-  def encrypt_password(password)
-     BCrypt::Password.create(password)
+  def encrypt_password!(attributes)
+     attributes[:password] = BCrypt::Password.create(attributes[:password])
   end
 end
