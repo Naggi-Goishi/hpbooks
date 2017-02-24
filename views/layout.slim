@@ -3,6 +3,9 @@ html
   head 
     meta charset='utf-8'
     title hpbooks
+    script src='/lib/vex.combined.min.js'
+    link rel='stylesheet' href='/lib/vex-theme-os.css'
+    link rel='stylesheet' href='/lib/vex.css'
     link rel='stylesheet' href='/stylesheets/layout.css'
     link rel='stylesheet' href='/stylesheets/common.css'
     link rel='stylesheet' href='/stylesheets/top.css'
@@ -14,7 +17,6 @@ html
       nav
         ul
           li 
-            a href='/users/signin' Sign in
+            a onclick='show_signup()' Sign Up
   body 
     == yield
-    
